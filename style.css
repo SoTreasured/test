@@ -1,0 +1,65 @@
+section.landing{
+    background:linear-gradient(rgba(72, 74, 79,0.9), rgba(72, 74, 79,0.9), rgba(72, 74, 79,0.9)) ,url(images/bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+}
+
+span.slick{
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+span.dot{
+    color: seagreen;
+    font-weight: bolder;
+}
+
+nav{
+   color: white;
+    padding-left: 170px;
+    padding-right: 150px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+nav:hover{
+    background-color: rgb(58, 60, 66);
+    transition: 2s;
+}
+
+nav div a span{
+    color: white;
+}
+
+nav ul li a{
+    color: white;
+}
+
+ul{
+    padding-top: 15px;
+}
+
+li{
+ list-style: none;
+ transition: 0.3s;
+ color: white;
+ font-weight: 500;
+}
+
+li:hover{
+    border-bottom: 3px solid rgb(79, 198, 128);
+    color: white;   
+}
+div.move{
+    margin-top:200px ;
+}
+h1.text{
+    font-size: 150px;
+    color: snow;
+}
+p.text{
+    color: white;
+    font-size: 25px;
+}
